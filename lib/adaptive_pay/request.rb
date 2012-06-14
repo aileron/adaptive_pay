@@ -9,7 +9,7 @@ module AdaptivePay
       :other
     end
 
-    class_inheritable_accessor :attributes
+    class_attribute :attributes
     self.attributes = []
 
     def self.attribute(name, options={})
